@@ -1,10 +1,8 @@
 # type: ignore
 from mcp.server.fastmcp import FastMCP 
-from dotenv import load_dotenv
 from typing import Optional, Any, List
 import pyodbc
 import os
-load_dotenv()
 
 
 #Initialize the server
